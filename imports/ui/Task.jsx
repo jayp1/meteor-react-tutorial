@@ -2,7 +2,7 @@ import React from 'react';
 
 export const Task = ({ task, onCheckBoxClick , onDeleteClick }) => {
   return (
-    <li>
+    <li className="task">
       <input
         type="checkbox"
         checked={!!task.isChecked}
